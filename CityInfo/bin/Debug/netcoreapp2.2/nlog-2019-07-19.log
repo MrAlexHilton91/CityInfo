@@ -1,0 +1,21 @@
+2019-07-19 14:28:53.8612|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44392/  
+2019-07-19 14:28:54.7329|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 915.0794ms 404 text/plain
+2019-07-19 14:28:59.6134|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44392/api/cities/5/pointsofinterest  
+2019-07-19 14:28:59.6718|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetPointsOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPointsOfInterest(Int32) on controller CityInfo.Controllers.PointsOfInterestController (CityInfo).
+2019-07-19 14:28:59.7158|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo) - Validation state: Valid
+2019-07-19 14:28:59.8005|FATAL|CityInfo.Controllers.PointsOfInterestController|Exception while getting points of interest for city with id 5.
+2019-07-19 14:28:59.8005|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 83.956ms.
+2019-07-19 14:28:59.8206|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'.
+2019-07-19 14:28:59.8317|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.GetPointsOfInterest (CityInfo) in 144.2323ms
+2019-07-19 14:28:59.8317|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 224.7131ms 500 text/plain; charset=utf-8
+2019-07-19 15:12:19.2807|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44392/  
+2019-07-19 15:12:19.7122|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 443.6198ms 404 text/plain
+2019-07-19 15:12:19.8629|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44392/favicon.ico  
+2019-07-19 15:12:19.8800|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.5187ms 404 text/plain
+2019-07-19 15:12:28.2283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44392/api/cities  
+2019-07-19 15:12:28.3129|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCities() on controller CityInfo.Controllers.CitiesController (CityInfo).
+2019-07-19 15:12:28.3635|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.CitiesController.GetCities (CityInfo) - Validation state: Valid
+2019-07-19 15:12:28.3843|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.Controllers.CitiesController.GetCities (CityInfo), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9.1224ms.
+2019-07-19 15:12:28.4009|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CityInfo.Models.CityDto, CityInfo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-07-19 15:12:28.5570|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.CitiesController.GetCities (CityInfo) in 210.3996ms
+2019-07-19 15:12:28.5674|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 339.8588ms 200 application/json; charset=utf-8

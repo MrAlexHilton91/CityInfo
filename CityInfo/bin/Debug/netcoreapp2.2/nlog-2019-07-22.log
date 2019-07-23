@@ -1,0 +1,20 @@
+2019-07-22 08:49:07.9115|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44392/  
+2019-07-22 08:49:08.3540|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 453.7966ms 404 text/plain
+2019-07-22 08:49:08.5282|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44392/favicon.ico  
+2019-07-22 08:49:08.5380|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.6426ms 404 text/plain
+2019-07-22 08:50:06.2314|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE https://localhost:44392/api/cities/1/pointsofinterest/1  0
+2019-07-22 08:50:06.2952|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.Controllers.PointsOfInterestController (CityInfo).
+2019-07-22 08:50:06.3495|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) - Validation state: Valid
+2019-07-22 08:50:24.4460|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 18088.6631ms.
+2019-07-22 08:50:24.4586|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-07-22 08:50:24.4736|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 18161.1843ms
+2019-07-22 08:50:24.4736|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18252.6609ms 204 
+2019-07-22 09:18:05.1659|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44392/  
+2019-07-22 09:18:05.4911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 341.8776ms 404 text/plain
+2019-07-22 09:18:10.5236|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 DELETE https://localhost:44392/api/cities/1/pointsofinterest/1  0
+2019-07-22 09:18:10.5816|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "DeletePointOfInterest", controller = "PointsOfInterest"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeletePointOfInterest(Int32, Int32) on controller CityInfo.Controllers.PointsOfInterestController (CityInfo).
+2019-07-22 09:18:10.6299|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) - Validation state: Valid
+2019-07-22 09:18:10.6569|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 14.1782ms.
+2019-07-22 09:18:10.6787|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 204
+2019-07-22 09:18:10.6898|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action CityInfo.Controllers.PointsOfInterestController.DeletePointOfInterest (CityInfo) in 95.7848ms
+2019-07-22 09:18:10.7064|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 182.9481ms 204 
